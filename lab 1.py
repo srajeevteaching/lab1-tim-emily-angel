@@ -7,14 +7,14 @@
 
 # Ask for input of mL
 mL = input("Enter number of mL")
-mL = int(mL)
+mL = float(mL)
 
 # Code for calculating first output
-tsp = (mL * 5)
+tsp = (mL / 5)
 print("tsp is")
 print(tsp)
 
 # Code for calculating second output
-tbsp = (tsp * 3)
+tbsp = (tsp / 3)
 print("tbsp is")
 print(tbsp)
