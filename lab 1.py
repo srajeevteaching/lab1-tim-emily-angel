@@ -11,8 +11,10 @@ mL = int(mL)
 
 # Code for calculating first output
 tsp = (mL * 5)
+print("tsp is")
 print(tsp)
 
 # Code for calculating second output
 tbsp = (tsp * 3)
+print("tbsp is")
 print(tbsp)
